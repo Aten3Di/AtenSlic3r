@@ -1,12 +1,12 @@
 # Security Policy
 
-At OrcaSlicer, we are committed to maintaining the security of our ecosystem. Our policy is to ensure that we do not introduce vulnerabilities and that any security issues are addressed promptly and responsibly. We appreciate your help in improving the security of OrcaSlicer and thank you for your responsible disclosure.
+At AtenSlic3r, we are committed to maintaining the security of our ecosystem. Our policy is to ensure that we do not introduce vulnerabilities and that any security issues are addressed promptly and responsibly. We appreciate your help in improving the security of OrcaSlicer and thank you for your responsible disclosure.
 Reporting Security Bugs
 
 ## To report a security bug, please follow these guidelines:
 
   * Email Security Bugs:
-        Send an email to the lead maintainer at softfeverever@gmail.com.
+        Send an email to the lead maintainer at info@aten3d.com.
         Include the word "SECURITY" in the subject line of your email.
 
   * Response Times:
@@ -39,9 +39,9 @@ When disclosing a vulnerability, please follow these steps to ensure your report
 
 ## Security Recommendations
 
-To enhance security when using OrcaSlicer, we recommend following these steps:
+To enhance security when using AtenSlic3r, we recommend following these steps:
 
   * SEE SOMETHING: If you notice anything suspicious or have concerns, please report it.
   * SAY SOMETHING: If you have any doubts or need assistance, do not hesitate to contact us.
 
-### Thank you for your commitment to the security of OrcaSlicer. Your efforts help us maintain a safe and reliable ecosystem.
+### Thank you for your commitment to the security of AtenSlic3r. Your efforts help us maintain a safe and reliable ecosystem.
