@@ -18,7 +18,6 @@ AtenSlic3r is forked from Orcaslicer.
 OrcaSlicer was originally forked from Bambu Studio, it was previously known as BambuStudio-SoftFever.
 [Bambu Studio](https://github.com/bambulab/BambuStudio) is forked from [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) by Prusa Research, which is from [Slic3r](https://github.com/Slic3r/Slic3r) by Alessandro Ranellucci and the RepRap community.
 OrcaSlicer incorporates a lot of features from [SuperSlicer](https://github.com/supermerill/SuperSlicer) by @supermerill
-OrcaSlicer's logo is designed by community member Justin Levine (@freejstnalxndr).
 
 # License
 - **AtenSlic3r** is licensed under the GNU Affero General Public License, version3. AtenSlic3r is based on OrcaSlicer by SoftFever.
