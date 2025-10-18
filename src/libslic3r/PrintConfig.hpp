@@ -127,6 +127,13 @@ enum class PrintOrder
     Count,
 };
 
+enum class GantryTiltAxis
+{
+    X = 0,
+    Y,
+    Z,
+};
+
 enum class SlicingMode
 {
     // Regular, applying ClipperLib::pftNonZero rule when creating ExPolygons.
@@ -1431,6 +1438,8 @@ PRINT_CONFIG_CLASS_DERIVED_DEFINE(
     
     // Orca: support adaptive bed mesh
     ((ConfigOptionFloat,               preferred_orientation))
+    ((ConfigOptionFloat,               gantry_tilt_angle))
+    ((ConfigOptionEnum<GantryTiltAxis>, gantry_tilt_axis))
     ((ConfigOptionPoint,               bed_mesh_min))
     ((ConfigOptionPoint,               bed_mesh_max))
     ((ConfigOptionPoint,               bed_mesh_probe_distance))
