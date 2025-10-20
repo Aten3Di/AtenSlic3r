@@ -15,19 +15,19 @@
       "sub_path": "machine/fdm_machine_common.json"
     },
     {
-      "name": "ginger G1 1.0 nozzle",
+      "name": "Ginger G1 1.0 nozzle",
       "sub_path": "machine/Ginger G1 1.0 nozzle.json"
     },
     {
-      "name": "ginger G1 3.0 nozzle",
+      "name": "Ginger G1 3.0 nozzle",
       "sub_path": "machine/Ginger G1 3.0 nozzle.json"
     },
     {
-      "name": "ginger G1 5.0 nozzle",
+      "name": "Ginger G1 5.0 nozzle",
       "sub_path": "machine/Ginger G1 5.0 nozzle.json"
     },
     {
-      "name": "ginger G1 8.0 nozzle",
+      "name": "Ginger G1 8.0 nozzle",
       "sub_path": "machine/Ginger G1 8.0 nozzle.json"
     }
   ],
