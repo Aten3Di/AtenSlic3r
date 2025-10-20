@@ -3948,6 +3948,8 @@ void TabPrinter::build_fff()
         optgroup->append_single_option_line("best_object_pos");
         optgroup->append_single_option_line("z_offset");
         optgroup->append_single_option_line("preferred_orientation");
+        optgroup->append_single_option_line("gantry_tilt_angle");
+        optgroup->append_single_option_line("gantry_tilt_axis");
 
         optgroup = page->new_optgroup(L("Advanced"), L"param_advanced");
         optgroup->append_single_option_line("printer_structure");

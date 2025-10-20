@@ -135,6 +135,13 @@ static t_config_enum_values s_keys_map_NoiseType {
 };
 CONFIG_OPTION_ENUM_DEFINE_STATIC_MAPS(NoiseType)
 
+static t_config_enum_values s_keys_map_GantryTiltAxis {
+    { "X",              int(GantryTiltAxis::X) },
+    { "Y",              int(GantryTiltAxis::Y) },
+    { "Z",              int(GantryTiltAxis::Z) }
+};
+CONFIG_OPTION_ENUM_DEFINE_STATIC_MAPS(GantryTiltAxis)
+
 static t_config_enum_values s_keys_map_FuzzySkinMode {
     { "displacement",   int(FuzzySkinMode::Displacement) },
     { "extrusion",      int(FuzzySkinMode::Extrusion) },
@@ -567,6 +574,28 @@ void PrintConfigDef::init_common_params()
     def->min = -360;
     def->mode = comAdvanced;
     def->set_default_value(new ConfigOptionFloat(0.0));
+
+    def = this->add("gantry_tilt_angle", coFloat);
+    def->label = L("Gantry tilt angle");
+    def->tooltip = L("Defines the tilt angle of the gantry (0° = perpendicular).");
+    def->sidetext = "°";	// degrees, don't need translation
+    def->min = 0;
+    def->max = 89;
+    def->mode = comAdvanced;
+    def->set_default_value(new ConfigOptionFloat(0.0));
+
+    def = this->add("gantry_tilt_axis", coEnum);
+    def->label = L("Gantry tilt axis");
+    def->tooltip = L("Defines the axis around which the gantry is tilted.");
+    def->enum_keys_map = &ConfigOptionEnum<GantryTiltAxis>::get_enum_values();
+    def->enum_values.push_back("X");
+    def->enum_values.push_back("Y");
+    def->enum_values.push_back("Z");
+    def->enum_labels.push_back(L("X"));
+    def->enum_labels.push_back(L("Y"));
+    def->enum_labels.push_back(L("Z"));
+    def->mode = comAdvanced;
+    def->set_default_value(new ConfigOptionEnum<GantryTiltAxis>(GantryTiltAxis::X));
 
     // Options used by physical printers
 

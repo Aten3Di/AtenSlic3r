@@ -56,6 +56,12 @@ enum class NoiseType {
     Voronoi,
 };
 
+enum class GantryTiltAxis {
+    X,
+    Y,
+    Z,
+};
+
 enum PrintHostType {
     htPrusaLink, htPrusaConnect, htOctoPrint, htDuet, htFlashAir, htAstroBox, htRepetier, htMKS, htESP3D, htCrealityPrint, htObico, htFlashforge, htSimplyPrint, htElegooLink
 };
@@ -1431,6 +1437,8 @@ PRINT_CONFIG_CLASS_DERIVED_DEFINE(
     
     // Orca: support adaptive bed mesh
     ((ConfigOptionFloat,               preferred_orientation))
+    ((ConfigOptionFloat,               gantry_tilt_angle))
+    ((ConfigOptionEnum<GantryTiltAxis>, gantry_tilt_axis))
     ((ConfigOptionPoint,               bed_mesh_min))
     ((ConfigOptionPoint,               bed_mesh_max))
     ((ConfigOptionPoint,               bed_mesh_probe_distance))
