@@ -1,6 +1,6 @@
 {
     "type": "filament",
-    "name": "Ginger Generic PETG",
+    "name": "Generic PETG",
     "inherits": "fdm_filament_common",
     "from": "system",
     "instantiation": "true",
