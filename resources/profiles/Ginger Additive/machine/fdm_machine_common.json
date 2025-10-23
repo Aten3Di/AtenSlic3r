@@ -135,6 +135,8 @@
     "nozzle_volume": "0",
     "parking_pos_retraction": "92",
     "preferred_orientation": "0",
+    "gantry_tilt_angle": "0",
+    "gantry_tilt_axis": "X",
     "printer_model": "Ginger G1",
     "print_host": "G1OS.local",
     "print_host_webui": "",
