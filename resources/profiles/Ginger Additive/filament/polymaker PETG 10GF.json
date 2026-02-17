@@ -1,85 +1,67 @@
 {
    "extruder_rotation_volume": [
-      "520"
+      "640"
+   ],
+   "mixing_stepper_rotation_volume": [
+      "8000"
    ],
    "fan_max_speed": [
-      "60"
+      "55"
    ],
    "fan_min_speed": [
-      "50"
+      "45"
    ],
    "filament_deretraction_speed": [
-      "150"
-   ],
-   "filament_max_volumetric_speed": [
-      "180"
-   ],
-   "filament_retract_before_wipe": [
-      "0%"
+      "200"
    ],
    "filament_retract_restart_extra": [
-      "10"
-   ],
-   "filament_retract_when_changing_layer": [
-      "0"
+      "25"
    ],
    "filament_retraction_length": [
-      "30"
+      "25"
    ],
    "filament_retraction_speed": [
       "200"
    ],
    "filament_settings_id": [
-      "Ginger rPLA"
+      "Polymaker PETG 10GF"
    ],
    "filament_start_gcode": [
-      "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.55"
-   ],
-   "filament_vendor": [
-      "Ginger"
-   ],
-   "filament_wipe": [
-      "1"
+      "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.5"
    ],
    "filament_wipe_distance": [
-      "8"
+      "7"
    ],
    "from": "system",
-   "hot_plate_temp": [
-      "55"
+   "filament_vendor": [
+      "Polymaker"
    ],
-   "hot_plate_temp_initial_layer": [
-      "55"
-   ],
-   "inherits": "Generic PLA",
+   "inherits": "Generic PETG GF",
    "is_custom_defined": "0",
-   "mixing_stepper_rotation_volume": [
-      "4000"
-   ],
    "multi_zone_1_initial_layer": [
-      "205"
+      "190"
    ],
    "multi_zone_1_temperature": [
-      "205"
+      "190"
    ],
    "multi_zone_2_initial_layer": [
-      "200"
+      "230"
    ],
    "multi_zone_2_temperature": [
-      "200"
+      "230"
    ],
    "multi_zone_3_initial_layer": [
-      "200"
+      "240"
    ],
    "multi_zone_3_temperature": [
-      "200"
+      "240"
    ],
-   "name": "Ginger rPLA",
-   "reduce_fan_stop_start_freq": [
-      "1"
+   "name": "Polymaker PETG 10GF",
+   "pressure_advance": [
+      "0.5"
    ],
-   "slow_down_layer_time": [
-      "80"
+   "filament_density": [
+      "1.54"
    ],
    "version": "2.3.3.3",
    "compatible_printers": [

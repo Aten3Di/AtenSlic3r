@@ -17,6 +17,7 @@
    ],
    "compatible_printers": [
       "Ginger G1 1.0 nozzle",
+      "Ginger G1 1.8 nozzle",
       "Ginger G1 3.0 nozzle",
       "Ginger G1 5.0 nozzle",
       "Ginger G1 8.0 nozzle"
@@ -176,10 +177,10 @@
       "nil"
    ],
    "filament_z_hop": [
-      "nil"
+      "1"
    ],
    "filament_z_hop_types": [
-      "nil"
+      "Normal Lift"
    ],
    "from": "system",
    "full_fan_speed_layer": [
@@ -241,7 +242,7 @@
    "textured_plate_temp_initial_layer": [
       "55"
    ],
-   "version": "2.3.3.2",
+   "version": "2.3.3.3",
    "pellet_flow_coefficient": [
       "1"
    ],

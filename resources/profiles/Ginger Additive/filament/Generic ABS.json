@@ -4,6 +4,7 @@
       "Generic"
    ],
    "inherits": "fdm_filament_common",
+   "name": "Generic ABS",
    "close_fan_the_first_x_layers": [
       "4"
    ],
@@ -13,6 +14,9 @@
    "enable_pressure_advance": [
       "1"
    ],
+   "fan_cooling_layer_time": [
+      "100"
+   ],
    "fan_max_speed": [
       "0"
    ],
@@ -21,9 +25,6 @@
    ],
    "filament_cost": [
       "6"
-   ],
-   "filament_density": [
-      "1.23"
    ],
    "filament_max_volumetric_speed": [
       "200"
@@ -37,6 +38,29 @@
    "filament_retract_lift_enforce": [
       "nil"
    ],
+   "filament_settings_id": [
+      "ABS"
+   ],
+   "filament_start_gcode": [
+      "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.5"
+   ],
+   "filament_type": [
+      "ABS"
+   ],
+   "hot_plate_temp": [
+      "80"
+   ],
+   "hot_plate_temp_initial_layer": [
+      "80"
+   ],
+   "is_custom_defined": "0",
+   "mixing_stepper_rotation_volume": "8000",
+   "nozzle_temperature_range_high": [
+      "260"
+   ],
+   "nozzle_temperature_range_low": [
+      "210"
+   ],
    "overhang_fan_speed": [
       "100"
    ],
@@ -48,6 +72,9 @@
    ],
    "slow_down_min_speed": [
       "1"
+   ],
+   "temperature_vitrification": [
+      "75"
    ],
    "filament_deretraction_speed": [
       "150"
@@ -82,45 +109,32 @@
    ],
    "version": "2.3.3.3",
    "instantiation": "true",
-   "name": "Generic PLA",
-   "extruder_rotation_volume": "456",
-   "fan_cooling_layer_time": [
-      "100"
+   "extruder_rotation_volume": [
+      "730"
    ],
-   "filament_settings_id": [
-      "PLA"
+   "filament_density": [
+      "1.07"
    ],
-   "filament_start_gcode": [
-      "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.5"
-   ],
-   "filament_type": [
-      "PLA"
-   ],
-   "hot_plate_temp": [
-      "50"
-   ],
-   "hot_plate_temp_initial_layer": [
-      "50"
-   ],
-   "is_custom_defined": "0",
-   "mixing_stepper_rotation_volume": "8000",
-   "multi_zone_1_initial_layer": "200",
-   "multi_zone_1_temperature": "200",
-   "multi_zone_2_initial_layer": "200",
-   "multi_zone_2_temperature": "200",
-   "multi_zone_3_initial_layer": "200",
-   "multi_zone_3_temperature": "200",
-   "nozzle_temperature_range_high": [
+   "multi_zone_1_initial_layer": [
       "220"
    ],
-   "nozzle_temperature_range_low": [
-      "180"
+   "multi_zone_1_temperature": [
+      "220"
+   ],
+   "multi_zone_2_initial_layer": [
+      "240"
+   ],
+   "multi_zone_2_temperature": [
+      "240"
+   ],
+   "multi_zone_3_initial_layer": [
+      "260"
+   ],
+   "multi_zone_3_temperature": [
+      "260"
    ],
    "pressure_advance": [
-      "0.3"
-   ],
-   "slow_down_layer_time": [
-      "50"
+      "0.4"
    ],
    "compatible_printers": [
       "Ginger G1 1.0 nozzle",
@@ -129,7 +143,7 @@
       "Ginger G1 5.0 nozzle",
       "Ginger G1 8.0 nozzle"
    ],
-   "temperature_vitrification": [
-      "55"
+   "slow_down_layer_time": [
+      "30"
    ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Ginger Additive",
-  "version": "2.3.3.2",
+  "version": "2.3.3.3",
   "force_update": "1",
   "description": "Ginger configuration",
   "machine_model_list": [
@@ -17,6 +17,10 @@
     {
       "name": "Ginger G1 1.0 nozzle",
       "sub_path": "machine/Ginger G1 1.0 nozzle.json"
+    },
+    {
+      "name": "Ginger G1 1.8 nozzle",
+      "sub_path": "machine/Ginger G1 1.8 nozzle.json"
     },
     {
       "name": "Ginger G1 3.0 nozzle",
@@ -37,12 +41,28 @@
       "sub_path": "process/fdm_process_common.json"
     },
     {
+      "name": "fdm_process_vasemode_common",
+      "sub_path": "process/fdm_process_vasemode_common.json"
+    },
+    {
       "name": "0.60mm Standard",
       "sub_path": "process/0.60mm Standard.json"
     },
     {
+      "name": "0.60mm Vasemode",
+      "sub_path": "process/0.60mm Vasemode.json"
+    },
+        {
+      "name": "0.90mm Standard",
+      "sub_path": "process/0.90mm Standard.json"
+    },
+    {
       "name": "1.30mm Standard",
       "sub_path": "process/1.30mm Standard.json"
+    },
+    {
+      "name": "1.30mm Vasemode",
+      "sub_path": "process/1.30mm Vasemode.json"
     },
     {
       "name": "1.50mm Standard",
@@ -53,22 +73,42 @@
       "sub_path": "process/1.50mm Vasemode.json"
     },
     {
-      "name": "1.80mm Vasemode",
-      "sub_path": "process/1.80mm Vasemode.json"
-    },
-    {
       "name": "2.50mm Standard",
       "sub_path": "process/2.50mm Standard.json"
     },
     {
+      "name": "2.50mm Vasemode",
+      "sub_path": "process/2.50mm Vasemode.json"
+    },
+    {
       "name": "4.00mm Standard",
       "sub_path": "process/4.00mm Standard.json"
+    },
+    {
+      "name": "4.00mm Vasemode",
+      "sub_path": "process/4.00mm Vasemode.json"
     }
   ],
   "filament_list": [
     {
       "name": "fdm_filament_common",
       "sub_path": "filament/fdm_filament_common.json"
+    },
+    {
+      "name": "Generic ABS",
+      "sub_path": "filament/Generic ABS.json"
+    },
+    {
+      "name": "Generic ASA",
+      "sub_path": "filament/Generic ASA.json"
+    },
+    {
+      "name": "Generic HIPS",
+      "sub_path": "filament/Generic HIPS.json"
+    },
+    {
+      "name": "Generic PETG GF",
+      "sub_path": "filament/Generic PETG GF.json"
     },
     {
       "name": "Generic PETG",
@@ -79,8 +119,8 @@
       "sub_path": "filament/Generic PLA.json"
     },
     {
-      "name": "Generic HIPS",
-      "sub_path": "filament/Generic HIPS.json"
+      "name": "Generic PP",
+      "sub_path": "filament/Generic PP.json"
     },
     {
       "name": "Azure PETG",
@@ -95,16 +135,20 @@
       "sub_path": "filament/colorFabb FOAM PLA.json"
     },
     {
+      "name": "FormFutura PLA",
+      "sub_path": "filament/FormFutura PLA.json"
+    },
+    {
+      "name": "FormFutura PP Centaur",
+      "sub_path": "filament/FormFutura PP Centaur.json"
+    },
+    {
       "name": "FormFutura rPETG 10GF",
       "sub_path": "filament/FormFutura rPETG 10GF.json"
     },
     {
       "name": "FormFutura rPETG 20GF",
       "sub_path": "filament/FormFutura rPETG 20GF.json"
-    },
-    {
-      "name": "FormFutura PP Centaur",
-      "sub_path": "filament/FormFutura PP Centaur.json"
     },
     {
       "name": "FormFutura rPETG",
@@ -119,8 +163,12 @@
       "sub_path": "filament/MAIP ASA 5GF.json"
     },
     {
-      "name": "polymaker PETG 20GF",
-      "sub_path": "filament/polymaker PETG 20GF.json"
+      "name": "Polymaker PETG 10GF",
+      "sub_path": "filament/Polymaker PETG 10GF.json"
+    },
+    {
+      "name": "Polymaker PETG 20GF",
+      "sub_path": "filament/Polymaker PETG 20GF.json"
     },
     {
       "name": "SmartMaterials PLA olive",
